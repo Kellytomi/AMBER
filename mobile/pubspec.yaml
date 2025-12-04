@@ -1,5 +1,5 @@
-name: mobile
-description: "A new Flutter project."
+name: amber
+description: "Amber Mobile App"
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -34,6 +34,43 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+
+  # Firebase Core
+  firebase_core:
+  firebase_auth:
+  cloud_firestore:
+  firebase_storage:
+  firebase_messaging:
+
+  # State Management & DI
+  flutter_bloc: ^9.0.0
+  equatable: ^2.0.5
+  get_it: ^7.0.0
+
+  # Location & Maps
+  geolocator: ^11.0.0
+  geocoding: ^3.0.0
+  google_maps_flutter: ^2.7.0
+
+  # Media & Camera
+  image_picker: ^1.0.0
+  camera: ^0.10.5
+  permission_handler: ^11.0.0
+
+  # Notifications
+  flutter_local_notifications: ^17.0.0
+
+  # UI
+  flutter_svg: ^2.0.10
+  google_fonts: ^6.0.0
+  shimmer: ^3.0.0
+
+  # Local Storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # Networking (optional)
+  dio: ^5.0.0
 
 dev_dependencies:
   flutter_test:
